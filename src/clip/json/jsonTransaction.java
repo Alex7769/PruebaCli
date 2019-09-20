@@ -4,8 +4,6 @@ import java.io.FileWriter;
 
 import org.json.simple.JSONObject;
 
-
-
 public class jsonTransaction {
 	
 	public JSONObject createJson() {

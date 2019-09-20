@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import com.mysql.jdbc.Statement;
+
 
 public class BdSql {
 	
@@ -15,8 +15,8 @@ public class BdSql {
 		    String url = "jdbc:mysql://"+server+":"+port+"/?user="+user+"&password="+ pass;	
 		    System.out.println(url+"  -----------------");
 		    conn = DriverManager.getConnection(url);	
-		    Statement   s = (Statement) conn.createStatement();
-            int result = s.executeUpdate("CREATE DATABASE databasename");
+		    //Statement   s = (Statement) conn.createStatement();
+            //int result = s.executeUpdate("CREATE DATABASE databasename");
 		} catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
             e.getCause();
