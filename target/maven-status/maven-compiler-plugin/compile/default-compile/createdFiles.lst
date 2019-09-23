@@ -1,5 +1,8 @@
-clip\beggin.class
-clip\bd\sql\BdSql.class
-clip\propierties.class
-clip\NoSql\NoSql.class
-clip\json\jsonTransaction.class
+clip\dao\sql\BdSql.class
+clip\json\JsonTransaction.class
+clip\bussines\dto\DtoTransaction.class
+clip\bussines\Transactions.class
+clip\bussines\dto\DtoConection.class
+clip\Principale.class
+clip\DataBasePropierties.class
+clip\dao\nosql\mongo\NoSql.class

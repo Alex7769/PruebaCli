@@ -1,4 +1,4 @@
-package clip.NoSql;
+package clip.dao.nosql.mongo;
 
 import com.mongodb.Mongo;
 

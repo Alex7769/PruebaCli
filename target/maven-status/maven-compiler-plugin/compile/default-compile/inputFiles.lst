@@ -1,5 +1,8 @@
-C:\Users\Niko\Documents\WorkspaceLOCAL\clip\src\clip\beggin.java
-C:\Users\Niko\Documents\WorkspaceLOCAL\clip\src\clip\bd\sql\BdSql.java
-C:\Users\Niko\Documents\WorkspaceLOCAL\clip\src\clip\NoSql\NoSql.java
-C:\Users\Niko\Documents\WorkspaceLOCAL\clip\src\clip\propierties.java
-C:\Users\Niko\Documents\WorkspaceLOCAL\clip\src\clip\json\jsonTransaction.java
+C:\Users\Niko\Documents\WorkspaceLOCAL\clip\src\clip\DataBasePropierties.java
+C:\Users\Niko\Documents\WorkspaceLOCAL\clip\src\clip\Principale.java
+C:\Users\Niko\Documents\WorkspaceLOCAL\clip\src\clip\dao\nosql\mongo\NoSql.java
+C:\Users\Niko\Documents\WorkspaceLOCAL\clip\src\clip\bussines\dto\DtoTransaction.java
+C:\Users\Niko\Documents\WorkspaceLOCAL\clip\src\clip\dao\sql\BdSql.java
+C:\Users\Niko\Documents\WorkspaceLOCAL\clip\src\clip\bussines\dto\DtoConection.java
+C:\Users\Niko\Documents\WorkspaceLOCAL\clip\src\clip\bussines\Transactions.java
+C:\Users\Niko\Documents\WorkspaceLOCAL\clip\src\clip\json\JsonTransaction.java
