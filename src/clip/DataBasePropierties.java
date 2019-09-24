@@ -16,7 +16,7 @@ public class DataBasePropierties {
 			p.load(new FileReader("BD.properties"));
 			String serverSQL = p.getProperty("serverName");
 
-			if (serverSQL != null) {				
+			if (serverSQL != null) {
 				dtoConect.setServer(p.getProperty("serverName"));
 				dtoConect.setUser(p.getProperty("userName"));
 				dtoConect.setPass(p.getProperty("pass"));
@@ -29,26 +29,31 @@ public class DataBasePropierties {
 			System.out.println("no se encuentra archivo properties de conexion a la bd");
 		} catch (IOException e) {
 			e.getMessage();
-		}return null;
+		}
+		return null;
 
 	}
 
-	public void readPropertiesNoSql() {
+	public DtoConection readPropertiesNoSql() {
 		Properties p = new Properties();
+		DtoConection dtoMongo = new DtoConection();
 		try {
 			p.load(new FileReader("BD.properties"));
 			String serverNoSql = p.getProperty("serverName2");
 			if (serverNoSql != null) {
-				System.out.println("-----" + p.getProperty("serverName2"));
-				System.out.println("------" + p.getProperty("userName2"));
-				System.out.println("--------" + p.getProperty("pass2"));
+				dtoMongo.setServer(p.getProperty("serverName"));
+				dtoMongo.setUser(p.getProperty("userName"));
+				dtoMongo.setPass(p.getProperty("pass"));
+				dtoMongo.setPort(p.getProperty("port"));
+				dtoMongo.setBd(p.getProperty("basedatos"));
+				return dtoMongo;
 			}
 		} catch (FileNotFoundException e) {
 			System.out.println("no se encuentra archivo properties de conexion a la bd");
 		} catch (IOException e) {
 			e.getMessage();
 		}
-
+		return null;
 	}
 
 }

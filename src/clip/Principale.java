@@ -11,9 +11,8 @@ public class Principale {
 		json.createJson(345, "{ \"amount\": 1.23, \"description\": \"Joes Tacos\", \"date\":\"2018-12-30\", \"user_id\": 345 }");
 		
 		BdSql bd = new BdSql();
-		bd.getConnection();
-//		propierties prop = new propierties();
-//		prop.readProperites();	
+		bd.implementDbMysql();
+
 //		
 //		Transactions transaction = new Transactions();
 //		System.out.print("./application ");
