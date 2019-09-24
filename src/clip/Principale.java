@@ -1,7 +1,7 @@
 package clip;
 
+import clip.dao.json.JsonTransaction;
 import clip.dao.sql.BdSql;
-import clip.json.JsonTransaction;
 
 public class Principale {
 

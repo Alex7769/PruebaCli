@@ -1,6 +1,6 @@
 package clip.bussines;
 
-import clip.json.JsonTransaction;
+import clip.dao.json.JsonTransaction;
 
 public class Transactions {
 		
